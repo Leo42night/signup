@@ -56,14 +56,9 @@ p, h1, h2, h3, h4, h5, h6 {
   display: grid;
   padding: 2rem;
   background-color: white;
-  height: 100vh;
+  border-radius: 1rem;
 }
-#messStart > img {
-  margin-bottom: 20px;
-}
-#messStart > button {
 
-}
 #messEMail {
   font-weight: var(--fw-bold)
 }
@@ -141,12 +136,72 @@ input {
   background: var(--clr-neutral-900); 
 }
 
-@media only screen and (max-width: 376px){
-  .product{
-    min-height: 100vh;
-  }
+.product{
+  min-height: 100vh;
+}
+#messStart {
+  border-radius: 0;
+  padding: 2rem;
+  background-color: white;
+  height: 100vh;
+}
+#messStart > img {
+  margin-bottom: 1rem;
+}
+#messStart > p {
+  font-size: 1.3rem;
+}
+#messStart > button {
+  height: 60px;
+  padding: 2px;
+  font-size: 1.5rem;
 }
 
+
+@media (min-width: 376px){
+#sign-up{
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1rem solid white;
+  border-radius: 1rem;
+  max-width: 60vw;
+
+}
+.content{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content button {
+  bottom: 0;
+  right: 0;
+}
+
+
+#messStart {
+  border-radius: 2rem;
+  padding: 2rem;
+  background-color: white;
+  width: 50vw;
+  height: auto;
+}
+#messStart > img {
+  margin-bottom: 0;
+}
+#messStart > h1 {
+  font-size: 3rem;
+}
+#messStart > p {
+  font-size: 1.3rem;
+}
+#messStart > button {
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  font-size: 2rem;
+}
+}
 
 
 
