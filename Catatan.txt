@@ -1,0 +1,17 @@
+frontendmentor.io; step by me :
+> email validation
+! error "alert is not a function". fix : nama harus beda dgn variabel
+- styling alert and input alert color and border
+-/ border linear gradient
+! error : perilaku border-radius tidak inherit; fix: border-image vs border-radius
+! Unchecked runtime.lastError. maybe problem live server. fix:disable extention browser
+> fixing issue
+-- list-style image
+-- image change query using <picture>
+> manipulate DOM
+-- add class to display none .kalimat
+-- change image
+-- email data move inner html "span.succ" 
+> responsive css units (pixel to relative[em,rem,vw,%]
+> add credit at footer
+-- border-top
